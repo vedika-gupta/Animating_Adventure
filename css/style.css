@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    /* background: linear-gradient(#040228 0%, #0075c7 40%); */
+    min-height: 110vh;
+    overflow-x: hidden;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    color: #fff;
+    font-size: 2em;
+    cursor: default;
+
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: 600;
+    padding: 6px 15px;
+    border-radius: 20px;
+
+}
+
+.navbar a:hover,
+.navbar a.active
+{
+    background: #00a3b9;
+
+}
+.parallax{
+    position: relative;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 118vh;
+}
+.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events:none;
+}
+.parallax .i2{
+    width: 400px;
+    position: relative;
+    top: 50px;
+    left: 450px;
+    display: flex;
+    justify-content: flex-end;
+}
+.sec{
+    position:relative;
+    padding: 100px;
+    height: 90vh;
+    background: linear-gradient(#522f8f , #c6dae4 );
+
+}
+.heading{
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    /* border-radius: 2px solid grey; */
+    justify-content: space-evenly;
+}
+.fitem{
+
+  width: 500px;
+  padding: 40px;
+  background: rgba(255, 255, 255, .2);
+  box-shadow: 0px 5px 15px rgba(0,0,0,.5);
+  justify-content: space-between;
+}
+.box1{
+    min-height: 80px;
+    position: relative;
+}
+.box2{
+    min-height: 150px;
+    position: absolute;
+    top: 65%;
+
+}
+.box3{
+    min-height: 300px;
+}
+.bold{
+    font-weight: 500;
+    font-size: 20px;
+}
+.done{
+    font-size: 30px;
+    font-weight: 400;
+    padding: 8px;
+    text-align: center;
+}
